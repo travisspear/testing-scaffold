@@ -34,5 +34,11 @@ all: install lint test
 
 ## How to Debug
 1. Print statements: During development only
-2. pdb
-3. Testing
+2. Testing
+3. pdb
+```python
+def function_name(...):
+    # pdb allows you to trace each step executed in a function via console output
+    import pdb;pdb.set_trace()
+    ...
+```
